@@ -1,11 +1,11 @@
 <template>
-    <div class="card">
+    <div>
 
-        <h1>{{song.title}}</h1>
-        <img :src="song.albumArt">
-        <h2> {{song.artist}}</h2>
-        <h4> {{song.collection}}</h4>
-        <p> {{song.price}}</p>
+        <h5>{{song.title}}</h5>
+        <img :src="song.albumArt" class="albumart">
+        <h6> {{song.artist}}</h6>
+        <h6> {{song.collection}}</h6>
+        
         <audio ref='player' controls preload="none">
             <source :src="song.preview" type="audio/mp4">
         </audio>
@@ -56,3 +56,8 @@
     }
 
 </script>
+<style> 
+.albumart{
+    height: 10vh;
+}
+</style>

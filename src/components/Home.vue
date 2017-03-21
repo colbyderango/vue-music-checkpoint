@@ -1,25 +1,26 @@
 <template>
   <div class="home">
     <!-- YOU WILL PROBABLY END UP WITH SOMETHING LIKE THIS -->
+        <a href="#" data-activates="slide-out" class="button-collapse mytunesies"><i class="material-icons">menu</i></a>
 
-    <div class="row center">
-     
-        <div class="col s6">
-          <h1>Search</h1>
-          <itunes class="itunes card"></itunes>
 
-        </div>
-        <div class="col s6">
-          <h1>My Jams</h1>
+    <div class="row tunesies">
 
-          <myTunes class="my-tunes card"></myTunes>
-        </div>
+      <div class="col s12">
+        <h1 class="white-text">Search</h1>
+        <itunes class="itunes card-panel"></itunes>
 
-     
+      </div>
+
+
+      <myTunes></myTunes>
+
+
+
     </div>
 
   </div>
-  
+
 
 
 
@@ -42,6 +43,9 @@
       }
     }
   }
+  $(document).ready(function () {
+    $('.button-collapse').sideNav();
+  });
 
 </script>
 
@@ -52,7 +56,10 @@
 * BOOTSTRAP IS FOR THE WEAK FLEXBOX IS KING
 * -- McCall
 **/
-  
+  body{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ad/47/af/ad47af29ad50df1477b9413f9d521db0.jpg");
+    
+  }
   .my-tunes {
     display: inline-block;
     min-height: 500px;
@@ -61,12 +68,17 @@
   }
   
   .itunes {
-    display: inline-block;
+
     background: rgba(158, 147, 147, 0.3);
     min-height: 500px;
     min-width: 45%;
   }
-
-
+  .tunesies{
+    float: right;
+  }
+  .mytunesies{
+    background-color: rgba(158, 147, 147, 0.3);
+  }
   
+ 
 </style>

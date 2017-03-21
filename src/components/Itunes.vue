@@ -7,7 +7,7 @@
 
         </form>
         <ul>
-            <Song :song="song" v-for="song in songs" @click="getMusicByArtist(this.query)">
+            <Song class="card-panel teal itunes":song="song" v-for="song in songs" @click="getMusicByArtist(this.query)">
             </Song>
         </ul>
     </div>
@@ -62,3 +62,8 @@
     }
 
 </script>
+<style>
+    .itunes{
+        text-align: right;
+    }
+</style>
