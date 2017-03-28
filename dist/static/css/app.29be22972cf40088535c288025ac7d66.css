@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /**
+* YOU SHOULD PROBABLY MAKE THIS LOOK BETTER :)
+* BOOTSTRAP IS FOR THE WEAK FLEXBOX IS KING
+* -- McCall
+**/
+body{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ad/47/af/ad47af29ad50df1477b9413f9d521db0.jpg");
+}
+.my-tunes {
+    display: inline-block;
+    min-height: 500px;
+    min-width: 50%;
+    background: rgba(104, 2, 207, 0.3);
+}
+.itunes {
+
+    background: rgba(158, 147, 147, 0.3);
+    min-height: 500px;
+    min-width: 45%;
+}
+.tunesies{
+    float: right;
+}
+.mytunesies{
+    background-color: rgba(158, 147, 147, 0.3);
+}
+  
+ 
+
+.itunes{
+    text-align: right;
+}
+
+.albumart{
+    height: 10vh;
+}
+
+.mytunesies{
+    background-color: rgba(158, 147, 147, 0.3);
+}
+.naver{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ad/47/af/ad47af29ad50df1477b9413f9d521db0.jpg");
+}
+
+/*# sourceMappingURL=app.29be22972cf40088535c288025ac7d66.css.map*/
